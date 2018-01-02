@@ -7,7 +7,7 @@ module.exports = decor;
 /* config = { basedir: String }
  * 
  */
-function decor(config) {
+function decor(config={}) {
   console.log = decorate(console.log, config);
   console.error = decorate(console.error, config);
 }
