@@ -1,6 +1,6 @@
 {
   "name": "console-decor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Decorate console functions with timestamps, file path, line number, and object pretty print",
   "main": "index.js",
   "scripts": {
